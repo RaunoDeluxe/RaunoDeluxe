@@ -3,71 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rauno Suhhinin</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #121212;
-            color: #E0E0E0;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 700px;
-            margin: 80px auto;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-        .box {
-            background: #1E1E1E;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .box:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-        }
-        h1 {
-            color: #FFF;
-            font-size: 36px;
-            font-weight: 700;
-        }
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        a {
-            color: #1DB954;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Rauno Suhhinin - Personal Info</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <audio id="bg-music" loop autoplay>
+        <source src="background-music.mp3" type="audio/mp3">
+    </audio>
     <div class="container">
-        <div class="box">
+        <div class="profile">
+            <img src="profile.jpg" alt="Rauno Suhhinin">
             <h1>Rauno Suhhinin</h1>
-            <p><strong>Born:</strong> December 21, 2001</p>
+            <p>Born: 21.12.2001</p>
         </div>
-        <div class="box">
-            <p><strong>Phone:</strong> <a href="tel:+37258366955">+372 5836 6955</a></p>
-        </div>
-        <div class="box">
-            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/_raunts_/" target="_blank">_raunts_</a></p>
-            <p><strong>Facebook:</strong> <a href="https://www.facebook.com/rauno.ss/" target="_blank">Rauno Suhhinin</a></p>
-            <p><strong>Skype:</strong> rauno.suhhinin1</p>
-        </div>
-        <div class="box">
-            <p><strong>Twitter/X:</strong> <a href="https://x.com/Maragratti" target="_blank">@KingAudi</a></p>
-            <p><strong>Snapchat:</strong> @KingAudi (username: onuraunts)</p>
+        <div class="info-boxes">
+            <div class="info-box">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:RaunoandKelli@gmail.com">RaunoandKelli@gmail.com</a></p>
+                <p>Email: <a href="mailto:Raunosuhhinin@gmail.com">Raunosuhhinin@gmail.com</a></p>
+                <p>Phone: <a href="tel:+37258366955">+372 5836 6955</a></p>
+            </div>
+            <div class="info-box">
+                <h2>Social Media</h2>
+                <p>Instagram: <a href="https://www.instagram.com/_raunts_/" target="_blank">_raunts_</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/rauno.ss/" target="_blank">Rauno Suhhinin</a></p>
+                <p>Twitter: <a href="https://x.com/Maragratti" target="_blank">@KingAudi</a></p>
+                <p>Snapchat: @KingAudi (@onuraunts)</p>
+                <p>Skype: rauno.suhhinin1</p>
+            </div>
         </div>
     </div>
 </body>
